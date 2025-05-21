@@ -5,122 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio Yohann Pavone</title>
   <style>
-    /* Reset basique */
-    * {
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      padding: 20px;
     }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
-      padding: 2rem 1rem;
-      max-width: 700px;
-      margin: 2rem auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 10px;
-      background-color: #ffffff;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
-      color: #007acc;
-      margin-bottom: 1rem;
       text-align: center;
-      font-weight: 700;
-      font-size: 2.5rem;
+      color: #007acc;
     }
 
     h2 {
-      color: #004a99;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #007acc;
-      padding-bottom: 0.3rem;
-    }
-
-    p {
-      margin-bottom: 1rem;
-      font-size: 1.1rem;
+      margin-top: 30px;
+      color: #005b99;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
     }
 
     ul {
-      list-style-type: none;
-      padding-left: 0;
+      padding-left: 20px;
     }
 
-    ul li {
-      background: #e6f0ff;
-      margin-bottom: 0.6rem;
-      padding: 0.7rem 1rem;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-
-    ul li:hover {
-      background-color: #c0dbff;
+    li {
+      margin-bottom: 8px;
     }
 
     a {
-      color: #0057b7;
+      color: #007acc;
       text-decoration: none;
-      font-weight: 600;
     }
 
     a:hover {
       text-decoration: underline;
-      color: #003d80;
     }
 
     footer {
       text-align: center;
-      margin-top: 3rem;
+      margin-top: 40px;
       font-size: 0.9rem;
       color: #777;
-    }
-
-    @media (max-width: 480px) {
-      body {
-        padding: 1rem;
-        margin: 1rem;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Yohann Pavone</h1>
+    <p>Développeur web junior en reconversion professionnelle</p>
 
-  <h1>Yohann Pavone</h1>
-  <p>Développeur web junior en reconversion professionnelle.</p>
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js, Express</li>
+      <li>MongoDB, MySQL</li>
+      <li>Git, GitHub, Postman</li>
+    </ul>
 
-  <h2>Compétences</h2>
-  <ul>
-    <li>HTML5, CSS3, JavaScript ES6+</li>
-    <li>React, Node.js, Express.js</li>
-    <li>MongoDB, MySQL</li>
-    <li>Git, GitHub, VS Code, Postman</li>
-  </ul>
+    <h2>Projets</h2>
+    <ul>
+      <li><a href="https://github.com/Yohannpavone/wakfu-book">wakfu-book</a> – App TypeScript pour Wakfu</li>
+      <li><a href="https://github.com/Yohannpavone/entraidant-front">entraidant-front</a> – Front d'une plateforme d'entraide</li>
+    </ul>
 
-  <h2>Projets</h2>
-  <ul>
-    <li><a href="https://github.com/Yohannpavone/wakfu-book" target="_blank">wakfu-book</a> – App TypeScript liée à l'univers Wakfu</li>
-    <li><a href="https://github.com/Yohannpavone/entraidant-front" target="_blank">entraidant-front</a> – Frontend d'une plateforme d'entraide</li>
-  </ul>
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:yohannpavone@gmail.com">yohannpavone@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/yohannpavone/">LinkedIn</a></p>
+    <p>📍 Valence, France</p>
 
-  <h2>Contact</h2>
-  <p>📍 Valence, France</p>
-  <p>📧 <a href="mailto:yohannpavone@gmail.com">yohannpavone@gmail.com</a></p>
-  <p>🔗 <a href="https://www.linkedin.com/in/yohannpavone/" target="_blank">Mon profil LinkedIn</a></p>
-
-  <footer>
-    &copy; Yohann Pavone – 2025
-  </footer>
-
+    <footer>&copy; Yohann Pavone – 2025</footer>
+  </div>
 </body>
 </html>
-
